@@ -1,0 +1,9 @@
+The Traveling Salesman Problem
+
+The Traveling Salesman Problem is one of the most famous mathematical and computational problems. There is a salesman who has to visit a set of cities, each exactly once, returning to his starting city in such a way that the total distance of travel or cost is at a minimum. Although the problem sounds quite straightforward, its complexity grows exponentially with the increase in the number of cities.
+
+TSP is considered difficult because it belongs to the class of NP-hard problems, and there is no known algorithm that can solve efficiently all instances in a reasonable amount of time. It soon becomes apparent that this problem becomes impractical using an exhaustive search, as the number of possible routes grows factorially with the size of the input. For example, if there are 10 cities, then there are over 3.6 million possible routes to evaluate.
+
+The impact of this complexity is very real: transportation companies planning driving routes, airlines scheduling flights, circuit board manufacturers trying to find the most optimal path with wires. In each case an optimal solution might save time or resources, but in practice, software uses heuristic and approximation algorithms due to computational constraints.
+
+The TSP remains one of the most important problems within the fields of optimization and computational mathematics. As it is impossible to have an exact solution for large instances, active research concerns the improvement of approximations which provide near-optimal solutions in efficient ways for practical situations.
